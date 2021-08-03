@@ -1,10 +1,10 @@
 FILESEXTRAPATHS_prepend := "${THISDIR}/grub:"
 
 PV = "2.02+git${SRCPV}"
-SRCREV = "832e7862089a7cbc985ae09a17f6827de6c85bf8"
+SRCREV = "a10e9537c5620867cb56e5d82f8f86a83814ff9b"
 
 SRC_URI = "\
-	${NILRT_GIT}/grub.git;branch=${GRUB_BRANCH} \
+	git://github.com/jeyetam/grub.git;branch=jeyetam/debug/grub \
 	file://grub.cfg \
 	file://cfg \
 	file://grub.d \
